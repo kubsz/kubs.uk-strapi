@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_misc_gradient_colors",
+  "info": {
+    "displayName": "gradientColors",
+    "icon": "paint",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hexColor": {
+      "type": "customField",
+      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+      "customField": "plugin::color-picker.color"
+    },
+    "position": {
+      "type": "integer",
+      "max": 100,
+      "min": 0
+    }
+  }
+}
